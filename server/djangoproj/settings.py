@@ -29,8 +29,8 @@ SECRET_KEY =\
 DEBUG = True
 
 # This allowed hosts: must be checked and fill apropriately with the current correct URL. Else, admin dashboard will not work properly
-ALLOWED_HOSTS = ['localhost','https://t2ebve00-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai']
-CSRF_TRUSTED_ORIGINS = ['https://t2ebve00-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai']
+ALLOWED_HOSTS = ['https://t2ebve00-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai']
+CSRF_TRUSTED_ORIGINS = ['https://t2ebve00-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai']
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
